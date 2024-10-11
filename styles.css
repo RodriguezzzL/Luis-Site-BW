@@ -288,6 +288,33 @@ section {
   gap: 1rem;
 }
 /* about */
+#about {
+  position: relative;
+}
+.about-container {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+.about__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.about__boxs {
+  display: flex;
+  flex: 1;
+  gap: 2rem;
+}
+.about__experience,
+.about__education-container {
+  flex: 1;
+  border: 1px black solid;
+  border-radius: 2rem;
+  text-align: center;
+}
 .about-header {
   text-align: center;
 }
@@ -298,5 +325,18 @@ section {
   width: 350px;
   height: 350px;
   border-radius: 2rem;
-  margin-top: 1rem;
+  margin: auto 0;
+}
+.about__information {
+  text-align: center;
+}
+.logo {
+  height: 40px;
+  width: 40px;
+}
+
+.arrow {
+  position: absolute;
+  right: -5rem;
+  bottom: -2rem;
 }
