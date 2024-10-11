@@ -295,6 +295,7 @@ section {
   display: flex;
   gap: 2rem;
   align-items: flex-start;
+  justify-content: center;
 }
 .about__info {
   display: flex;
@@ -307,6 +308,7 @@ section {
   display: flex;
   flex: 1;
   gap: 2rem;
+  margin-top: 6rem;
 }
 .about__experience,
 .about__education-container {
@@ -314,6 +316,7 @@ section {
   border: 1px black solid;
   border-radius: 2rem;
   text-align: center;
+  padding: 1rem;
 }
 .about-header {
   text-align: center;
@@ -323,7 +326,7 @@ section {
 }
 .about__pic {
   width: 350px;
-  height: 350px;
+  height: 450px;
   border-radius: 2rem;
   margin: auto 0;
 }
@@ -335,8 +338,3 @@ section {
   width: 40px;
 }
 
-.arrow {
-  position: absolute;
-  right: -5rem;
-  bottom: -2rem;
-}
