@@ -337,4 +337,73 @@ section {
   height: 40px;
   width: 40px;
 }
+/* experience */
+.experience__header {
+  text-align: center;
+}
+.experience__header h3 {
+  font-size: 3rem;
+  text-align: center;
+}
+.experience__subtitle {
+  text-align: center;
+  font-size: 2rem;
+  opacity: 0.5;
+  margin-top: 1rem;
+  transition: all 0.3s;
+}
 
+.experience__subtitle:hover {
+  opacity: 1;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+}
+
+.article-container {
+  display: flex;
+  flex: 1;
+  gap: 2rem;
+  justify-content: center;
+  margin-left: 0;
+}
+
+.experience__language-list {
+  list-style: none;
+  font-size: 1.3rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  margin: 1rem 1rem;
+  border: 1px black solid;
+  border-radius: 2rem;
+  padding: 2rem;
+  row-gap: 1rem;
+  column-gap: 2rem;
+  align-items: center;
+}
+.experience__language-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  white-space: nowrap;
+}
+
+.experience__frameworks-list {
+  list-style: none;
+  border: 1px black solid;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 2rem;
+}
+
+.experience__frameworks-list li {
+  display: flex;
+  align-items: center;
+}
