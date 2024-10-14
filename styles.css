@@ -290,6 +290,7 @@ section {
 /* about */
 #about {
   position: relative;
+  height: 50vh;
 }
 .about-container {
   display: flex;
@@ -303,6 +304,10 @@ section {
   justify-content: center;
   gap: 2rem;
 }
+@media screen and (min-width: 1024px) {
+  #about {
+    margin-top: 10rem;
+  }
 
 .about__boxs {
   display: flex;
@@ -338,6 +343,10 @@ section {
   width: 40px;
 }
 /* experience */
+
+#experience {
+  height: 50vh;
+}
 .experience__header {
   text-align: center;
 }
@@ -399,7 +408,7 @@ section {
   justify-content: space-around;
   align-content: center;
   margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: rem;
   padding: 2rem;
 }
 
@@ -407,7 +416,15 @@ section {
   display: flex;
   align-items: center;
 }
-
+@media screen and (min-width: 1024px) {
+  #experience {
+    margin-top: 30rem;
+  }
+/* project */
+#projects {
+  margin: 0;
+  height: 70vh;
+}
 .project__image {
   width: 250px;
   height: 250px;
@@ -432,9 +449,16 @@ section {
   margin-top: 1rem;
   cursor: pointer;
 }
+@media screen and (min-width: 1024px) {
+  #projects {
+    margin-top: 33rem;
+  }
+}
 
 /*contact */
-
+#contact-me {
+  margin-top: 2rem;
+}
 .contact-container {
   display: inline-flex;
   justify-content: center;
@@ -453,7 +477,11 @@ section {
 .contact-me-links:hover {
   text-decoration: underline;
 }
-
+@media screen and (min-width: 1024px) {
+  #contact-me {
+    margin-top: 20rem;
+  }
+}
 /* footer */
 
 footer {
@@ -467,6 +495,6 @@ footer p {
 
 .footer-links {
   display: flex;
-  gap:2rem;
+  gap: 2rem;
   list-style: none;
 }
