@@ -453,3 +453,20 @@ section {
 .contact-me-links:hover {
   text-decoration: underline;
 }
+
+/* footer */
+
+footer {
+  height: 26vh;
+  margin: 0 1rem;
+}
+
+footer p {
+  text-align: center;
+}
+
+.footer-links {
+  display: flex;
+  gap:2rem;
+  list-style: none;
+}
