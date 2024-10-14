@@ -407,3 +407,49 @@ section {
   display: flex;
   align-items: center;
 }
+
+.project__image {
+  width: 250px;
+  height: 250px;
+  border-radius: 3rem;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+.project__1 {
+  border: 1px black solid;
+  border-radius: 2rem;
+}
+.projects-container {
+  display: flex;
+  justify-content: space-around;
+}
+.project__title {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.btn {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+/*contact */
+
+.contact-container {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px black solid;
+  border-radius: 2rem;
+  gap: 1rem;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.contact-me-links {
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.contact-me-links:hover {
+  text-decoration: underline;
+}
