@@ -201,10 +201,10 @@ section {
   #profile {
     display: flex;
     flex-direction: column;
-    margin: 0;
+    margin-top: 2rem;
   }
   .section__text {
-    margin-top: 2rem;
+    margin-top: 6rem;
   }
   .section__pic-container {
     justify-content: center;
@@ -215,6 +215,7 @@ section {
     width: 150px;
     display: flex;
     justify-content: center;
+    align-items: center;
   }
 }
 /*icon */
@@ -343,6 +344,10 @@ section {
 }
 .about-header {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
 }
 .about-header h2 {
   font-size: 3rem;
@@ -361,6 +366,9 @@ section {
   width: 40px;
 }
 @media screen and (max-width: 720px) {
+  #about {
+    margin-top: 10rem;
+  }
   .about__pic {
     width: 150px;
     height: auto;
