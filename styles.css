@@ -332,7 +332,7 @@ section {
   display: flex;
   flex: 1;
   gap: 2rem;
-  margin-top: 6rem;
+  margin-top: 1rem;
 }
 .about__experience,
 .about__education-container {
@@ -398,6 +398,7 @@ section {
 
 #experience {
   height: 50vh;
+  margin-top: 2rem;
 }
 .experience__header {
   text-align: center;
@@ -468,14 +469,14 @@ section {
   display: flex;
   align-items: center;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1024px) {
   #experience {
     margin-top: 30rem;
   }
 }
 /* project */
 #projects {
-  margin: 0;
+  margin-top: 3rem;
   height: 70vh;
 }
 .project__image {
@@ -503,7 +504,7 @@ section {
   margin-top: 1rem;
   cursor: pointer;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1024px) {
   #projects {
     margin-top: 33rem;
   }
