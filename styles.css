@@ -197,7 +197,25 @@ section {
   margin-top: 1rem;
   gap: 1rem;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 720px) {
+  #profile {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  .section__text {
+    margin-top: 2rem;
+  }
+  .section__pic-container {
+    justify-content: center;
+    order: 2;
+  }
+  .section__pic-container img {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+  }
 }
 /*icon */
 .icon {
@@ -308,7 +326,7 @@ section {
   #about {
     margin-top: 10rem;
   }
-
+}
 .about__boxs {
   display: flex;
   flex: 1;
@@ -324,7 +342,7 @@ section {
   padding: 1rem;
 }
 .about-header {
-  text-align: center;
+  display: flex;
 }
 .about-header h2 {
   font-size: 3rem;
@@ -342,6 +360,32 @@ section {
   height: 40px;
   width: 40px;
 }
+@media screen and (max-width: 720px) {
+  .about__pic {
+    width: 150px;
+    height: auto;
+  }
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-header__quote,
+  .about-header__aboutme {
+    white-space: nowrap;
+  }
+  .about-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  .about__boxs {
+    margin-top: 2rem;
+  }
+}
+
 /* experience */
 
 #experience {
@@ -420,6 +464,7 @@ section {
   #experience {
     margin-top: 30rem;
   }
+}
 /* project */
 #projects {
   margin: 0;
@@ -457,7 +502,7 @@ section {
 }
 
 /*contact */
-#contact-me {
+#contact {
   margin-top: 2rem;
 }
 .contact-container {
@@ -479,7 +524,7 @@ section {
   text-decoration: underline;
 }
 @media screen and (min-width: 1024px) {
-  #contact-me {
+  #contact {
     margin-top: 20rem;
   }
 }
