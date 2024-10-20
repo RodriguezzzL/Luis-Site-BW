@@ -172,6 +172,10 @@ section {
   width: 400px;
   margin: auto 0;
 }
+
+.section__pic-container img {
+  object-fit: cover;
+}
 .section__text {
   align-self: center;
   text-align: center;
@@ -341,6 +345,7 @@ section {
   border-radius: 2rem;
   text-align: center;
   padding: 1rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 .about-header {
   display: flex;
@@ -357,6 +362,7 @@ section {
   height: 450px;
   border-radius: 2rem;
   margin: auto 0;
+  object-fit: cover;
 }
 .about__information {
   text-align: center;
@@ -445,6 +451,7 @@ section {
   row-gap: 1rem;
   column-gap: 2rem;
   align-items: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 .experience__language-list li {
   display: flex;
@@ -463,6 +470,7 @@ section {
   margin-top: 1rem;
   margin-bottom: rem;
   padding: 2rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
 .experience__frameworks-list li {
@@ -489,6 +497,7 @@ section {
 .project__1 {
   border: 1px black solid;
   border-radius: 2rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 .projects-container {
   display: flex;
@@ -523,6 +532,7 @@ section {
   gap: 1rem;
   padding: 1rem;
   margin-top: 2rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
 .contact-me-links {
