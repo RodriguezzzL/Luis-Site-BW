@@ -490,7 +490,7 @@ section {
 }
 @media screen and (max-width: 1024px) {
   #experience {
-    margin-top: 30rem;
+    margin-top: 8rem;
   }
 }
 @media screen and (max-width: 720px) {
@@ -514,8 +514,8 @@ section {
 
 /* project */
 #projects {
-  margin-top: 3rem;
   height: 70vh;
+  margin-top: 5rem;
 }
 .project__image {
   width: 250px;
@@ -545,7 +545,7 @@ section {
 }
 @media screen and (max-width: 1024px) {
   #projects {
-    margin-top: 33rem;
+    margin-top: 5rem;
   }
 }
 
@@ -579,11 +579,18 @@ section {
 }
 @media screen and (min-width: 1024px) {
   #contact {
-    margin-top: 20rem;
+    margin-top: 10rem;
   }
 }
-/* footer */
+@media screen and (max-width: 720px) {
+  .contact-container {
+    display: flex;
+    font-size: small;
+    padding:0;
+  }
+}
 
+/* footer */
 footer {
   height: 26vh;
   margin: 0 1rem;
