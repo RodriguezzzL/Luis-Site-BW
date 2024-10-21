@@ -9,6 +9,7 @@
 
 body {
   font-family: "poppins", sans-serif;
+  margin: 0;
 }
 
 html {
@@ -164,13 +165,15 @@ section {
   justify-content: center;
   gap: 5rem;
   height: 80vh;
+  margin: 0;
 }
 
 .section__pic-container {
   display: flex;
+  justify-content: center;
   height: 400px;
   width: 400px;
-  margin: auto 0;
+  margin: 0 0;
 }
 
 .section__pic-container img {
@@ -205,14 +208,19 @@ section {
   #profile {
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin-top: 2rem;
   }
   .section__text {
     margin-top: 6rem;
   }
   .section__pic-container {
+    display: flex;
     justify-content: center;
+    align-items: center;
     order: 2;
+    width: 200px;
+    height: 200px;
   }
   .section__pic-container img {
     height: 150px;
@@ -338,6 +346,9 @@ section {
   gap: 2rem;
   margin-top: 1rem;
 }
+.about__education {
+  font-weight: bolder;
+}
 .about__experience,
 .about__education-container {
   flex: 1;
@@ -373,7 +384,7 @@ section {
 }
 @media screen and (max-width: 720px) {
   #about {
-    margin-top: 10rem;
+    margin-top: 5rem;
   }
   .about__pic {
     width: 150px;
@@ -538,6 +549,11 @@ section {
   }
 }
 
+@media screen and (max-width: 720px) {
+  #projects {
+    margin: 4rem 0;
+  }
+}
 /*contact */
 #contact {
   margin-top: 2rem;

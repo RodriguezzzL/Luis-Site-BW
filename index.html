@@ -83,7 +83,7 @@
         </div>
         <div class="about__education-container">
           <img src="/assets/education.png" alt="education-logo" class="logo" />
-          <div class="about__education">Education</div>
+          <h3 class="about__education">Education</h3>
           <div class="about__typeofdegree">B.Sc Bachelors Degree</div>
           <div class="about__majorofdegree">Computer Science</div>
         </div>
@@ -198,8 +198,15 @@
     
     <script src="script.js"></script>
       <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      
   <script>
     AOS.init();
   </script>
+  <script>  AOS.init({
+    disable: function() {
+      var maxWidth = 768; // Adjust this value for your mobile screen size
+      return window.innerWidth < maxWidth;
+    }
+  });</script>
   </body>
 </html>
