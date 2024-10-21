@@ -482,6 +482,25 @@ section {
     margin-top: 30rem;
   }
 }
+@media screen and (max-width: 720px) {
+  #experience {
+    margin: 0;
+  }
+
+  .experience__language-list {
+    margin: 0;
+    padding: 1rem;
+    font-size: small;
+  }
+
+  .article-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+  }
+}
+
 /* project */
 #projects {
   margin-top: 3rem;
