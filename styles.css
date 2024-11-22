@@ -523,7 +523,7 @@ section {
   margin-top: 1rem;
   object-fit: contain;
 }
-.project__1 {
+.project__card {
   border: 1px black solid;
   border-radius: 2rem;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
@@ -608,4 +608,61 @@ footer p {
   display: flex;
   gap: 2rem;
   list-style: none;
+}
+
+/* coin flipper */
+
+#Coin-Header {
+  text-align: center;
+  margin-top: 2rem;
+  font-weight: normal;
+}
+
+.button-container {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.red-button {
+  background-color: red;
+  color: white;
+  border: none;
+  transition: all .3s ease;
+}
+.red-button:hover {
+  color:black
+}
+
+.blue-button {
+  background-color: blue;
+  color: white;
+  border: none;
+  transition: all .3s ease;
+}
+.blue-button:hover {
+  color:black
+}
+
+
+.green-button {
+  background-color: green;
+  color: white;
+  border: none;
+  transition: all .3s ease;
+}
+.green-button:hover {
+  color:black
+}
+
+.random-button {
+  background: linear-gradient(135deg, #ff7eb3, #ff758c, #ffb199, #ffddc1, #fbffb1);
+  color: white;
+  border: none;
+  transition: all .3s ease;
+}
+.random-button:hover {
+  color:black
 }
