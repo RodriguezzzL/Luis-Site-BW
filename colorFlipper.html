@@ -8,7 +8,7 @@
   </head>
   <body>
     <nav id="desktop-nav">
-      <div class="name-logo">Luis Rodriguez</div>
+      <div class="name-logo"><a href="/index.html">Luis Rodriguez</a></div>
       <div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
@@ -35,20 +35,14 @@
       </div>
     </nav>
 
-
-
     <h1 id="Coin-Header">Color Flipper</h1>
     <div class="button-container">
-    <button class="btn red-button">Red</button>
-    <button class="btn blue-button">Blue</button>
-    <button class="btn green-button">Green</button>
-    <button class="btn random-button">Random</button>
+      <button class="btn red-button" onclick="colorChange('Red')">Red</button>
+      <button class="btn blue-button" onclick="colorChange('Blue')">Blue</button>
+      <button class="btn green-button" onclick="colorChange('Green')">Green</button>
+      <button class="btn random-button" onClick="randomColor()">Random</button>
     </div>
 
-
-        
-
-
-
+    <script src="/script.js"></script>
   </body>
 </html>

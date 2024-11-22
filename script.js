@@ -4,3 +4,19 @@ function toggleMenu() {
   menu.classList.toggle("open");
   icon.classList.toggle("open");
 }
+
+const body = document.getElementsByTagName("body")[0];
+
+function colorChange(color) {
+  body.style.background = color;
+}
+
+function randomColor() {
+  const red = Math.round(Math.random() * 255);
+  const green = Math.round(Math.random() * 255);
+  const blue = Math.round(Math.random() * 255);
+
+  const color = `rgb(${red}, ${green}, ${blue})`;
+
+  body.style.background = color;
+}

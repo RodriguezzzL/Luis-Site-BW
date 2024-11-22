@@ -630,39 +630,42 @@ footer p {
   background-color: red;
   color: white;
   border: none;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
+  border: 1px solid black;
 }
 .red-button:hover {
-  color:black
+  color: black;
 }
 
 .blue-button {
   background-color: blue;
   color: white;
   border: none;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
+  border: 1px solid black;
 }
 .blue-button:hover {
-  color:black
+  color: black;
 }
-
 
 .green-button {
   background-color: green;
   color: white;
   border: none;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
+  border: 1px solid black;
 }
 .green-button:hover {
-  color:black
+  color: black;
 }
 
 .random-button {
   background: linear-gradient(135deg, #ff7eb3, #ff758c, #ffb199, #ffddc1, #fbffb1);
   color: white;
   border: none;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
+  border: 1px solid black;
 }
 .random-button:hover {
-  color:black
+  color: black;
 }
