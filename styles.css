@@ -610,9 +610,10 @@ footer p {
   list-style: none;
 }
 
-/* coin flipper */
+/* coin flipper and titles for mini projects*/
 
-#Coin-Header {
+#Coin-Header,
+#palindrom {
   text-align: center;
   margin-top: 2rem;
   font-weight: normal;
@@ -668,4 +669,21 @@ footer p {
 }
 .random-button:hover {
   color: black;
+}
+
+/* palindrom */
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  margin-top: 2rem;
+  border-radius: 1rem;
+  width: 50%;
+  text-align: center;
+  padding: .25rem;
 }
