@@ -31,8 +31,10 @@ function check() {
   if (value === reverse) {
     alert("Palindrom detected");
   } else {
-    alert("no palindrom detected");
+    alert("No palindrom detected");
   }
+
+  input.value = "";
 }
 
 function reverseString(str) {
