@@ -685,5 +685,18 @@ input {
   border-radius: 1rem;
   width: 50%;
   text-align: center;
-  padding: .25rem;
+  padding: 0.25rem;
+}
+
+.center-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*random quote gen */
+
+quote-title {
+  margin-bottom: 2rem;
 }
