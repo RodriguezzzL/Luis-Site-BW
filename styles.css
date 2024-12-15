@@ -680,7 +680,7 @@ footer p {
   align-items: center;
 }
 
-input {
+.input {
   margin-top: 2rem;
   border-radius: 1rem;
   width: 50%;
@@ -718,4 +718,11 @@ quote-title {
 .stopWatch-btn:hover {
   color: white;
   background-color: black;
+}
+
+/*todo list */
+
+h1,
+h2 {
+  font-weight: normal;
 }

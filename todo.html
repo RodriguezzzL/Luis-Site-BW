@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Palindrom by Luis Rodriguez</title>
+    <title>TODO list by Luis</title>
     <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
@@ -34,13 +34,14 @@
         </div>
       </div>
     </nav>
-
-    <h1 id="palindrom">Palindrom Checker</h1>
     <div class="input-container">
-      <input class="input" type="text" placeholder="Type something" />
-      <button onclick="check()" class="btn">check</button>
+      <h1>Todo List</h1>
+      <h2>Items</h2>
+      <div id="items"></div>
+      <input type="text" id="itemInput" class="input" placeholder="Add an item" />
+      <button onclick="addItem()" class="btn">Add Item</button>
     </div>
 
-    <script src="/script.js"></script>
+    <script src="/todolist.js"></script>
   </body>
 </html>
