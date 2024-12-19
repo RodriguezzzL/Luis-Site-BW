@@ -1,5 +1,5 @@
 //todo list
-let items = ["get", "cookies"];
+let items = [];
 
 const itemsDiv = document.getElementById("items");
 const input = document.getElementById("itemInput");
