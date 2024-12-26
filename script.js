@@ -75,7 +75,7 @@ function generateQuote() {
     break;
   }
 }
-
+//timer project
 let secondsElapsed = 0;
 let minutesElapsed = 0;
 let interval = null;
@@ -109,4 +109,8 @@ function resetClock() {
   secondsElapsed = 0;
   setTime();
 }
+
+
+
+
 
