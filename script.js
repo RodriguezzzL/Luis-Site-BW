@@ -6,13 +6,13 @@ function toggleMenu() {
   menu.classList.toggle("open");
   icon.classList.toggle("open");
 }
+//color flipper
 
 const body = document.getElementsByTagName("body")[0];
 
 function colorChange(color) {
   body.style.background = color;
 }
-
 function randomColor() {
   const red = Math.round(Math.random() * 255);
   const green = Math.round(Math.random() * 255);
@@ -109,8 +109,3 @@ function resetClock() {
   secondsElapsed = 0;
   setTime();
 }
-
-
-
-
-
