@@ -1,5 +1,3 @@
-const { createElement } = require("react");
-
 function toggleMenu() {
   const menu = document.querySelector(".menu-links");
   const icon = document.querySelector(".hamburger-icon");
@@ -8,21 +6,22 @@ function toggleMenu() {
 }
 //color flipper
 
-const body = document.getElementsByTagName("body")[0];
+  const body = document.getElementsByTagName("body")[0];
 
-function colorChange(color) {
-  body.style.background = color;
-}
-function randomColor() {
-  const red = Math.round(Math.random() * 255);
-  const green = Math.round(Math.random() * 255);
-  const blue = Math.round(Math.random() * 255);
+  function colorChange(color) {
+    body.style.background = color;
+  }
+  function randomColor() {
+    const red = Math.round(Math.random() * 255);
+    const green = Math.round(Math.random() * 255);
+    const blue = Math.round(Math.random() * 255);
 
-  const color = `rgb(${red}, ${green}, ${blue})`;
+    const color = `rgb(${red}, ${green}, ${blue})`;
 
-  body.style.background = color;
-}
+    body.style.background = color;
+  }
 
+//palindrome mini project
 const input = document.getElementById("input");
 
 function check() {
