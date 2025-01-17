@@ -753,3 +753,51 @@ h2 {
 .mini-Project-item:hover {
   color: #b0e0e6;
 }
+
+/* food fire */
+
+.foodfire-Form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cityInput {
+  padding: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+  border: 2px solid hsla(0, 0%, 20%, 0.3);
+  border-radius: 2rem;
+  margin: 1rem;
+  width: 20rem;
+  text-align: center;
+}
+
+.restaurantImg {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+.restaurant_name {
+  text-align: center;
+}
+
+.restaurant_rating {
+  text-align: center;
+}
+.left-button,
+.right-button {
+  padding: 2rem;
+  border-radius: 50px;
+  border: 2px solid black;
+}
+.left-button {
+  background: red;
+  color: white;
+  margin-right: 2.5rem;
+}
+.right-button {
+  background: blue;
+  color: white;
+}

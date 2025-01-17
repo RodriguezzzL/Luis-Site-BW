@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Fire APP by Luis</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="name-logo">Luis Rodriguez</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="/index.html">Home</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div id="name-logo">Luis Rodriguez</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="/index.html" onclick="toggleMenu()">Home</a></li>
+        </div>
+      </div>
+    </nav>
+    <form class="foodfire-Form">
+      <input type="text" placeholder="Please input a city" class="cityInput" />
+      <div class="foodFire_card" style="display: none"></div>
+      <div class="LRButton">
+        <button class="left-button" onclick="approved()">N</button>
+        <button class="right-button" onclick="decline()">Y</button>
+      </div>
+    </form>
+    <script src="/foodFire/FF.JS"></script>
+  </body>
+</html>
