@@ -26,9 +26,9 @@ async function getRestaurantData(city) {
 
     const data = await response.json(); // return response in json format
 
-    restaurants = data.businesses;
+    restaurants = data.businesses; //will assign restaurants to the array of businesses
 
-    displayRestauant(restaurants[0]);
+    displayRestauant(restaurants[0]); // will display the first restaurant
   } catch (error) {
     displayError(error);
   }

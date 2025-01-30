@@ -126,6 +126,8 @@ a:hover {
 }
 .menu-links.open {
   max-height: 300px;
+  border: 1px black solid;
+  z-index: 1;
 }
 .hamburger-icon.open span:first-child {
   transform: rotate(45deg) translate(10px, 5px);
@@ -138,11 +140,8 @@ a:hover {
 }
 
 .hamburger-icon span:first-child {
-  transform: none;
-}
-
-.hamburger-icon span:first-child {
   opacity: 1;
+  transform: none;
 }
 /*section */
 section {
@@ -213,7 +212,7 @@ section {
     margin-top: 2rem;
   }
   .section__text {
-    margin-top: 6rem;
+    margin-top: 0rem;
   }
   .section__pic-container {
     display: flex;
